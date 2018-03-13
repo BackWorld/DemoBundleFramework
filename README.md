@@ -1,16 +1,11 @@
-# DemoBundleFramework
-A demo project for how to operate .bundle file in a customized .framework file.
-
 ### 要求
 - Xcode 8.3+
 - Swift 3.2
 - iOS 9.0+
 
 ### 分析
-##### .framework
-- .framework可以是静态库也可以是动态库，主要封装了
-##### .bundle
-
+- .framework可以是静态库也可以是动态库，主要封装了代码文件。
+- .bundle文件中主要存放framework用到的资源文件，如.storyboard、.xib、.png和音视频等。
 
 ### 实例
 > 以封装一个IconButton自定义控件为例
@@ -211,6 +206,21 @@ class ViewController: UIViewController {
 ![.bundle中内容](https://upload-images.jianshu.io/upload_images/1334681-5bfbabd4c94cde30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/400)
 
 > 以上就是简单演示了如何生成并使用一个含有bundle文件的framework，如果对你有帮助，欢迎加关注和点赞👍~
+
+### Carthage
+- 如果你的framework要支持carthage自动编译，就得在工程中做如下设置
+
+![Manage Schemes](https://upload-images.jianshu.io/upload_images/1334681-98e6a76057a37920.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![勾选shared](https://upload-images.jianshu.io/upload_images/1334681-c5ed90b36c4f337a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+- 编译
+```
+cd 工程目录
+carthage build --no-skip-current
+```
+![编译成功](https://upload-images.jianshu.io/upload_images/1334681-9cc29827bfb40604.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+> 关于更多Carthage，可以参考我这篇文章https://www.jianshu.com/p/76b9ff09f99c
 
 ### 简书
 > https://www.jianshu.com/p/ad07419980c7
