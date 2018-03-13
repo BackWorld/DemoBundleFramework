@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="17D102" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="IconLeft" customClass="IconButtonItem" customModule="IconButton">
+            <rect key="frame" x="0.0" y="0.0" width="223" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ckV-mQ-q3e">
+                    <rect key="frame" x="78" y="13" width="67.5" height="24"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="exA-FB-kcm">
+                            <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="exA-FB-kcm" secondAttribute="height" id="NSo-Bq-fGb"/>
+                                <constraint firstAttribute="width" constant="24" id="nnJ-N5-BXk"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xAd-70-K9F">
+                            <rect key="frame" x="34" y="0.0" width="33.5" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ckV-mQ-q3e" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="5ws-c2-Gy3"/>
+                <constraint firstItem="ckV-mQ-q3e" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="CQ4-mW-dyR"/>
+                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="ckV-mQ-q3e" secondAttribute="trailing" id="HZ2-Fe-1Tc"/>
+                <constraint firstItem="ckV-mQ-q3e" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="T8Y-Jl-WGG"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconImageView" destination="exA-FB-kcm" id="2w0-mc-4bY"/>
+                <outlet property="titleLabel" destination="xAd-70-K9F" id="EzZ-mU-lvt"/>
+            </connections>
+            <point key="canvasLocation" x="-52.5" y="-74"/>
+        </view>
+        <view contentMode="scaleToFill" id="xUy-yw-Wla" userLabel="IconRight" customClass="IconButtonItem" customModule="IconButton">
+            <rect key="frame" x="0.0" y="0.0" width="223" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hal-ZJ-Tus">
+                    <rect key="frame" x="78" y="13" width="67.5" height="24"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hyg-VA-xkK">
+                            <rect key="frame" x="0.0" y="0.0" width="33.5" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wTv-cy-faJ">
+                            <rect key="frame" x="43.5" y="0.0" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="24" id="MGA-Ei-8Nd"/>
+                                <constraint firstAttribute="width" secondItem="wTv-cy-faJ" secondAttribute="height" id="xUq-g6-Wnc"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="hal-ZJ-Tus" secondAttribute="trailing" id="EQQ-IJ-TRs"/>
+                <constraint firstItem="hal-ZJ-Tus" firstAttribute="centerX" secondItem="xUy-yw-Wla" secondAttribute="centerX" id="HJZ-1I-K3d"/>
+                <constraint firstItem="hal-ZJ-Tus" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="xUy-yw-Wla" secondAttribute="leadingMargin" id="gON-W3-26Y"/>
+                <constraint firstItem="hal-ZJ-Tus" firstAttribute="centerY" secondItem="xUy-yw-Wla" secondAttribute="centerY" id="t1i-DV-Gl5"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconImageView" destination="wTv-cy-faJ" id="SGW-u3-yUf"/>
+                <outlet property="titleLabel" destination="Hyg-VA-xkK" id="Aej-NR-1HM"/>
+            </connections>
+            <point key="canvasLocation" x="-55" y="91"/>
+        </view>
+        <view contentMode="scaleToFill" id="zQP-JU-sFB" userLabel="IconTop" customClass="IconButtonItem" customModule="IconButton">
+            <rect key="frame" x="0.0" y="0.0" width="223" height="111"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="oBJ-z1-04a">
+                    <rect key="frame" x="8" y="28.5" width="207" height="54.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4wx-wi-hT2">
+                            <rect key="frame" x="91.5" y="0.0" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="4wx-wi-hT2" secondAttribute="height" id="IWM-GG-lPD"/>
+                                <constraint firstAttribute="width" constant="24" id="i8G-r7-uvA"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75D-pe-I57">
+                            <rect key="frame" x="87" y="34" width="33.5" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailingMargin" secondItem="oBJ-z1-04a" secondAttribute="trailing" id="JsU-Qn-4BA"/>
+                <constraint firstItem="oBJ-z1-04a" firstAttribute="top" relation="greaterThanOrEqual" secondItem="zQP-JU-sFB" secondAttribute="topMargin" id="POQ-hO-usc"/>
+                <constraint firstItem="oBJ-z1-04a" firstAttribute="centerX" secondItem="zQP-JU-sFB" secondAttribute="centerX" id="RRT-6z-m92"/>
+                <constraint firstItem="oBJ-z1-04a" firstAttribute="leading" secondItem="zQP-JU-sFB" secondAttribute="leadingMargin" id="oDo-7B-PdC"/>
+                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="oBJ-z1-04a" secondAttribute="bottom" id="ouz-5t-m2G"/>
+                <constraint firstItem="oBJ-z1-04a" firstAttribute="centerY" secondItem="zQP-JU-sFB" secondAttribute="centerY" id="q9J-A5-Wko"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconImageView" destination="4wx-wi-hT2" id="Or4-gP-Cyk"/>
+                <outlet property="titleLabel" destination="75D-pe-I57" id="2nB-XJ-f5A"/>
+            </connections>
+            <point key="canvasLocation" x="-53" y="284"/>
+        </view>
+        <view contentMode="scaleToFill" id="XXn-5C-7sk" userLabel="IconBottom" customClass="IconButtonItem" customModule="IconButton">
+            <rect key="frame" x="0.0" y="0.0" width="223" height="111"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FxZ-QN-Neo">
+                    <rect key="frame" x="8" y="28.5" width="207" height="54.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ld2-Wj-OGg">
+                            <rect key="frame" x="87" y="0.0" width="33.5" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EUJ-e3-105">
+                            <rect key="frame" x="91.5" y="30.5" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="EUJ-e3-105" secondAttribute="height" id="cZv-FT-vit"/>
+                                <constraint firstAttribute="width" constant="24" id="wbK-3L-aLV"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="FxZ-QN-Neo" firstAttribute="centerY" secondItem="XXn-5C-7sk" secondAttribute="centerY" id="0Px-57-xVN"/>
+                <constraint firstAttribute="trailingMargin" secondItem="FxZ-QN-Neo" secondAttribute="trailing" id="QwF-QX-cgW"/>
+                <constraint firstItem="FxZ-QN-Neo" firstAttribute="leading" secondItem="XXn-5C-7sk" secondAttribute="leadingMargin" id="XKL-zV-Peu"/>
+                <constraint firstItem="FxZ-QN-Neo" firstAttribute="top" relation="greaterThanOrEqual" secondItem="XXn-5C-7sk" secondAttribute="topMargin" id="fLY-Xb-PkX"/>
+                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="FxZ-QN-Neo" secondAttribute="bottom" id="qmI-t4-DbN"/>
+                <constraint firstItem="FxZ-QN-Neo" firstAttribute="centerX" secondItem="XXn-5C-7sk" secondAttribute="centerX" id="vZl-hx-NFL"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconImageView" destination="EUJ-e3-105" id="iST-r4-tK0"/>
+                <outlet property="titleLabel" destination="Ld2-Wj-OGg" id="QHW-86-bYG"/>
+            </connections>
+            <point key="canvasLocation" x="-54" y="473"/>
+        </view>
+    </objects>
+</document>

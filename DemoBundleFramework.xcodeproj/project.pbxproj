@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8013C1162056612B00305A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8013C1152056612B00305A3C /* AppDelegate.swift */; };
+		8013C1182056612B00305A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8013C1172056612B00305A3C /* ViewController.swift */; };
+		8013C11B2056612B00305A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8013C1192056612B00305A3C /* Main.storyboard */; };
+		8013C11D2056612B00305A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8013C11C2056612B00305A3C /* Assets.xcassets */; };
+		8013C1202056612B00305A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8013C11E2056612B00305A3C /* LaunchScreen.storyboard */; };
+		8013C1332056614800305A3C /* IconButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8013C12C2056614800305A3C /* IconButton.framework */; };
+		8013C1342056614800305A3C /* IconButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8013C12C2056614800305A3C /* IconButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8013C13A205661A500305A3C /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8013C139205661A500305A3C /* IconButton.swift */; };
+		8013C14A20566C8A00305A3C /* IconButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8013C13B205661AF00305A3C /* IconButton.xib */; };
+		8013C14C20566CF200305A3C /* IconButtonBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8013C14B20566CF200305A3C /* IconButtonBundle.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8013C1312056614800305A3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8013C10A2056612B00305A3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8013C12B2056614800305A3C;
+			remoteInfo = IconButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8013C1382056614800305A3C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8013C1342056614800305A3C /* IconButton.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8013C1122056612B00305A3C /* DemoBundleFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoBundleFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8013C1152056612B00305A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8013C1172056612B00305A3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8013C11A2056612B00305A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8013C11C2056612B00305A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8013C11F2056612B00305A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8013C1212056612B00305A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8013C12C2056614800305A3C /* IconButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IconButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8013C12F2056614800305A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8013C139205661A500305A3C /* IconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		8013C13B205661AF00305A3C /* IconButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IconButton.xib; path = ../IconButton/IconButton.xib; sourceTree = "<group>"; };
+		8013C141205668CB00305A3C /* IconButtonBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconButtonBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8013C143205668CB00305A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8013C14B20566CF200305A3C /* IconButtonBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = IconButtonBundle.bundle; path = "../../../Library/Developer/Xcode/DerivedData/DemoBundleFramework-dnusyqblhnpjfjglcctsmtfzviap/Build/Products/Debug-iphonesimulator/IconButtonBundle.bundle"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8013C10F2056612B00305A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8013C1332056614800305A3C /* IconButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8013C1282056614800305A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8013C13E205668CB00305A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8013C1092056612B00305A3C = {
+			isa = PBXGroup;
+			children = (
+				8013C1142056612B00305A3C /* DemoBundleFramework */,
+				8013C12D2056614800305A3C /* IconButton */,
+				8013C142205668CB00305A3C /* IconButtonBundle */,
+				8013C1132056612B00305A3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8013C1132056612B00305A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8013C1122056612B00305A3C /* DemoBundleFramework.app */,
+				8013C12C2056614800305A3C /* IconButton.framework */,
+				8013C141205668CB00305A3C /* IconButtonBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8013C1142056612B00305A3C /* DemoBundleFramework */ = {
+			isa = PBXGroup;
+			children = (
+				8013C1152056612B00305A3C /* AppDelegate.swift */,
+				8013C1172056612B00305A3C /* ViewController.swift */,
+				8013C1192056612B00305A3C /* Main.storyboard */,
+				8013C11C2056612B00305A3C /* Assets.xcassets */,
+				8013C11E2056612B00305A3C /* LaunchScreen.storyboard */,
+				8013C1212056612B00305A3C /* Info.plist */,
+			);
+			path = DemoBundleFramework;
+			sourceTree = "<group>";
+		};
+		8013C12D2056614800305A3C /* IconButton */ = {
+			isa = PBXGroup;
+			children = (
+				8013C12F2056614800305A3C /* Info.plist */,
+				8013C139205661A500305A3C /* IconButton.swift */,
+				8013C14B20566CF200305A3C /* IconButtonBundle.bundle */,
+			);
+			path = IconButton;
+			sourceTree = "<group>";
+		};
+		8013C142205668CB00305A3C /* IconButtonBundle */ = {
+			isa = PBXGroup;
+			children = (
+				8013C13B205661AF00305A3C /* IconButton.xib */,
+				8013C143205668CB00305A3C /* Info.plist */,
+			);
+			path = IconButtonBundle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8013C1292056614800305A3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8013C1112056612B00305A3C /* DemoBundleFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8013C1242056612B00305A3C /* Build configuration list for PBXNativeTarget "DemoBundleFramework" */;
+			buildPhases = (
+				8013C10E2056612B00305A3C /* Sources */,
+				8013C10F2056612B00305A3C /* Frameworks */,
+				8013C1102056612B00305A3C /* Resources */,
+				8013C1382056614800305A3C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8013C1322056614800305A3C /* PBXTargetDependency */,
+			);
+			name = DemoBundleFramework;
+			productName = DemoBundleFramework;
+			productReference = 8013C1122056612B00305A3C /* DemoBundleFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8013C12B2056614800305A3C /* IconButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8013C1352056614800305A3C /* Build configuration list for PBXNativeTarget "IconButton" */;
+			buildPhases = (
+				8013C1272056614800305A3C /* Sources */,
+				8013C1282056614800305A3C /* Frameworks */,
+				8013C1292056614800305A3C /* Headers */,
+				8013C12A2056614800305A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconButton;
+			productName = IconButton;
+			productReference = 8013C12C2056614800305A3C /* IconButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8013C140205668CB00305A3C /* IconButtonBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8013C144205668CB00305A3C /* Build configuration list for PBXNativeTarget "IconButtonBundle" */;
+			buildPhases = (
+				8013C13D205668CB00305A3C /* Sources */,
+				8013C13E205668CB00305A3C /* Frameworks */,
+				8013C13F205668CB00305A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconButtonBundle;
+			productName = IconButtonBundle;
+			productReference = 8013C141205668CB00305A3C /* IconButtonBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8013C10A2056612B00305A3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = GuessMe;
+				TargetAttributes = {
+					8013C1112056612B00305A3C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					8013C12B2056614800305A3C = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					8013C140205668CB00305A3C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8013C10D2056612B00305A3C /* Build configuration list for PBXProject "DemoBundleFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8013C1092056612B00305A3C;
+			productRefGroup = 8013C1132056612B00305A3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8013C1112056612B00305A3C /* DemoBundleFramework */,
+				8013C12B2056614800305A3C /* IconButton */,
+				8013C140205668CB00305A3C /* IconButtonBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8013C1102056612B00305A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8013C1202056612B00305A3C /* LaunchScreen.storyboard in Resources */,
+				8013C11D2056612B00305A3C /* Assets.xcassets in Resources */,
+				8013C11B2056612B00305A3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8013C12A2056614800305A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8013C14C20566CF200305A3C /* IconButtonBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8013C13F205668CB00305A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8013C14A20566C8A00305A3C /* IconButton.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8013C10E2056612B00305A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8013C1182056612B00305A3C /* ViewController.swift in Sources */,
+				8013C1162056612B00305A3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8013C1272056614800305A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8013C13A205661A500305A3C /* IconButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8013C13D205668CB00305A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8013C1322056614800305A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8013C12B2056614800305A3C /* IconButton */;
+			targetProxy = 8013C1312056614800305A3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8013C1192056612B00305A3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8013C11A2056612B00305A3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8013C11E2056612B00305A3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8013C11F2056612B00305A3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8013C1222056612B00305A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8013C1232056612B00305A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8013C1252056612B00305A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoBundleFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gm.DemoBundleFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8013C1262056612B00305A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoBundleFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gm.DemoBundleFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8013C1362056614800305A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IconButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gm.IconButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8013C1372056614800305A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IconButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gm.IconButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8013C145205668CB00305A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IconButtonBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gm.IconButtonBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos10.3;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8013C146205668CB00305A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IconButtonBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gm.IconButtonBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos10.3;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8013C10D2056612B00305A3C /* Build configuration list for PBXProject "DemoBundleFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8013C1222056612B00305A3C /* Debug */,
+				8013C1232056612B00305A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8013C1242056612B00305A3C /* Build configuration list for PBXNativeTarget "DemoBundleFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8013C1252056612B00305A3C /* Debug */,
+				8013C1262056612B00305A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8013C1352056614800305A3C /* Build configuration list for PBXNativeTarget "IconButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8013C1362056614800305A3C /* Debug */,
+				8013C1372056614800305A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8013C144205668CB00305A3C /* Build configuration list for PBXNativeTarget "IconButtonBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8013C145205668CB00305A3C /* Debug */,
+				8013C146205668CB00305A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8013C10A2056612B00305A3C /* Project object */;
+}
